@@ -5,9 +5,11 @@ branding:
   icon: 'activity'
   color: 'green'
 inputs:
-  github_token:
-    required: true
-    description: 'a github access token'
+  # github_token:
+  #   required: true
+  #   description: 'a github access token'
+  artifact-name:
+    required: false
   build_script:
     required: false
     description: 'a custom npm script to build'
